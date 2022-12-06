@@ -1,0 +1,82 @@
+body {
+  background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(9, 9, 50));
+  position: relative;
+}
+a:link {
+  color: rgb(249, 247, 247);
+}
+.title {
+  height: 200px;
+  position: relative;
+  background-image: url("/HW 5-6/pics/underwater.jpg");
+  background-size: cover;
+  background-position: center;
+  border-bottom: #c0f8fd 2px solid;
+  border-top: #c0f8fd 2px solid;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font: xx-large;
+  font-weight: 800;
+  color: whitesmoke;
+  text-shadow: 0px 0px 15px #d9fbff;
+  text-align: center;
+  font-size: 4.5vw;
+  position: absolute;
+  top: 70px;
+  width: 100%;
+}
+
+.picboxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 50px;
+  color: rgb(2, 0, 0);
+}
+
+.resize {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.name {
+  width: 300px;
+  height: 50px;
+  background-color: rgb(2, 0, 0);
+  padding-top: 5px;
+  padding-left: 8px;
+}
+
+p {
+  padding-left: 5px;
+  font: italic 100% serif;
+}
+
+.shadow:hover {
+  box-shadow: 0px 0px 20px 20px #fff5ff;
+  opacity: 1;
+  text-shadow: -2px 0px 0.5px #ffffff;
+  transition: 0.5s;
+  transform: scale(1.03);
+}
+
+.brighten img {
+  -webkit-filter: brightness(50%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.brighten img:hover {
+  -webkit-filter: brightness(100%);
+}
+
+.position {
+  object-position: top;
+}

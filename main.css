@@ -1,0 +1,153 @@
+.navig {
+  display: flex;
+  flex-direction: row;
+}
+.mainimg {
+  background-image: url("/HW 5-6/pics/violet4.jpg");
+  height: 120vh;
+  background-size: cover;
+  background-position: 50%;
+  position: relative;
+}
+body {
+  background-color: rgb(237, 237, 237);
+}
+h1 {
+  color: white;
+  position: absolute;
+  right: 10vw;
+  top: 20vh;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 5vw;
+  font-weight: 800;
+  text-shadow: 0px 0px 8px #d9fbff;
+}
+
+button {
+  width: 25vw;
+  height: 7vh;
+  border: 1px white solid;
+  font-size: 2vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+}
+button:hover {
+  box-shadow: 0px 0px 10px 10px #beefff;
+  opacity: 1;
+  text-shadow: 0px 0px 2px #ffffff;
+  transition: 0.5s;
+  transform: scale(1);
+  background-color: rgb(235, 246, 255);
+}
+
+.position1 {
+  position: absolute;
+  right: 12vw;
+  top: 40vh;
+}
+.position2 {
+  position: absolute;
+  right: 12vw;
+  top: 47vh;
+}
+.position3 {
+  position: absolute;
+  right: 12vw;
+  top: 54vh;
+}
+.position4 {
+  position: absolute;
+  right: 12vw;
+  top: 61vh;
+}
+.position5 {
+  position: absolute;
+  right: 12vw;
+  top: 68vh;
+}
+.content {
+  height: auto;
+  background-color: #ffffff;
+  margin-left: 7vw;
+  margin-right: 7vw;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  display: flex;
+}
+.text {
+  align-content: space-around;
+}
+h2.name {
+  margin-top: 50px;
+  margin-left: 50px;
+  font-size: 30px;
+  font-weight: 800;
+}
+p {
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+hr {
+  border-top: 30px solid rgb(237, 237, 237);
+}
+.image {
+  width: 400px;
+  height: 400px;
+  margin-left: 50px;
+  margin-bottom: 30px;
+  float: left;
+  margin-right: 40px;
+  background-size: cover;
+  margin-top: 15px;
+}
+
+.anatomy::after {
+  font-size: 20px;
+  content: "The main feature of a true jellyfish is the umbrella-shaped bell. This is a hollow structure consisting of a mass of transparent jelly-like matter known as mesoglea, which forms the hydrostatic skeleton of the animal. 95% or more of the mesogloea consists of water, but it also contains collagen and other fibrous proteins, as well as wandering amoebocytes which can engulf debris and bacteria. The mesogloea is bordered by the epidermis on the outside and the gastrodermis on the inside. The edge of the bell is often divided into rounded lobes known as lappets, which allow the bell to flex. In the gaps or niches between the lappets are dangling rudimentary sense organs known as rhopalia, and the margin of the bell often bears tentacles. On the underside of the bell is the manubrium, a stalk-like structure hanging down from the centre, with the mouth, which also functions as the anus, at its tip. There are often four oral arms connected to the manubrium, streaming away into the water below. The mouth opens into the gastrovascular cavity, where digestion takes place and nutrients are absorbed. This is subdivided by four thick septa into a central stomach and four gastric pockets. The four pairs of gonads are attached to the septa, and close to them four septal funnels open to the exterior, perhaps supplying good oxygenation to the gonads. Near the free edges of the septa, gastric filaments extend into the gastric cavity; these are armed with nematocysts and enzyme-producing cells and play a role in subduing and digesting the prey. In some scyphozoans, the gastric cavity is joined to radial canals which branch extensively and may join a marginal ring canal. Cilia in these canals circulate the fluid in a regular direction.";
+}
+.image2 {
+  width: 400px;
+  height: 270px;
+  margin-left: 50px;
+  float: left;
+  margin-right: 40px;
+  margin-bottom: 30px;
+  background-size: cover;
+  margin-top: 15px;
+}
+.diet::after {
+  font-size: 20px;
+  content: "Jellyfish are like other cnidarians generally carnivorous (or parasitic), feeding on planktonic organisms, crustaceans, small fish, fish eggs and larvae, and other jellyfish, ingesting food and voiding undigested waste through the mouth. They hunt passively using their tentacles as drift lines, or sink through the water with their tentacles spread widely; the tentacles, which contain nematocysts to stun or kill the prey, may then flex to help bring it to the mouth. Their swimming technique also helps them to capture prey; when their bell expands it sucks in water which brings more potential prey within reach of the tentacles. A few species such as Aglaura hemistoma are omnivorous, feeding on microplankton which is a mixture of zooplankton and phytoplankton (microscopic plants) such as dinoflagellates. Others harbour mutualistic algae (Zooxanthellae) in their tissues; the spotted jellyfish (Mastigias papua) is typical of these, deriving part of its nutrition from the products of photosynthesis, and part from captured zooplankton. The upside-down jellyfish (Cassiopea andromeda) also has a symbiotic relationship with microalgae, but captures tiny animals to supplement their diet. This is done by releasing tiny balls of living cells composed of mesoglea. These use cilia to drive them through water and stinging cells which stun the prey. The blobs also seems to have digestive capabilities.";
+}
+.behaviour::after {
+  font-size: 20px;
+  content: "Jellyfish practice what is called vertical migration, arising from the ocean depths to the surface in large aggregations known as blooms. In general, they bloom in the spring, reproduce in the summer, and die off in the fall. But different species have different patterns; some migrate once or twice a day, and some migrate horizontally following the sun. The jellies most injurious to humans, the Irukandji species, undergo seasonal migrations which bring them into contact with swimmers in the tropics. Jellyfish spend all of their time is seeking food, escaping predators, or finding a mate—some set a trap with their tentacles arranged in a spiral pattern, an impenetrable curtain for their prey, or array their tentacles in a big field around their bodies. Others simply drift or swim slowly, dragging their tentacles behind them like a trawler net. Some species are pleustonic, meaning they live at the air/water interface year round. Those include the sailing jellies, like the Portuguese man-of-war, the Blue Bottle, and the By-the-Wind Sailor Jelly (Velella vellal), which has an oblong blue raft and a silvery vertical sail. Like most invertebrate animals, jellyfish have very short lifespans: Some small species live for only a few hours, while the largest varieties, like the lion's mane jellyfish, may survive for a few years. Controversially, one Japanese scientist claims that the jellyfish species Turritopsis dornii is effectively immortal: Full-grown individuals have the ability to revert back to the polyp stage, and thus, theoretically, can cycle endlessly from adult to juvenile form. Unfortunately, this behavior has only been observed in the laboratory, and T. dornii can easily die in many other ways (such as being eaten by predators or washing up on the beach).";
+}
+.reproduction::after {
+  font-size: 20px;
+  content: "Jellyfish hatch from eggs which are fertilized by males after females expel the eggs into the water. What emerges from the egg is a free-swimming planula, which looks a bit like a giant paramecium. The planula soon attaches itself to a firm surface (the sea floor, a rock, even the side of a fish) and grows into a stalked polyp reminiscent of a scaled-down coral or anemone. Finally, after months or even years, the polyp launches itself off its perch and becomes an ephyra (for all intents and purposes, a juvenile jellyfish), and then grows to its full size as an adult jelly.";
+}
+.image3 {
+  width: 340px;
+  height: 500px;
+  margin-left: 50px;
+  float: left;
+  margin-right: 40px;
+  margin-bottom: 30px;
+  background-size: cover;
+  margin-top: 15px;
+}
+
+li {
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.end {
+  text-align: center;
+}
